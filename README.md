@@ -11,7 +11,7 @@
 # 数据
 简单介绍：
 |**数据集名称**|**国籍属性**|**下载和预处理策略**|**出处**|**任务形式**|
-|---|---|-----|---|
+|---|---|---|-----|---|
 |CAIL2018|中国大陆刑法|1. 原生数据格式<br>2. LADAN策略<br>3. CTM策略||输入事实描述文本，预测案件的罪名、刑期（分类任务或者ordinal分类任务）、适用法条|
 |ILSI|印度（英文）||[Re6：读论文 LeSICiN: A Heterogeneous Graph-based Approach for Automatic Legal Statute Identification fro](https://blog.csdn.net/PolarisRisingWar/article/details/125192379)|根据事实描述文本和案件引用图，预测案件的适用法条|
 
@@ -40,6 +40,9 @@
 
 **2020年**  
 1. (ACL) [Re27：读论文 LADAN Distinguish Confusing Law Articles for Legal Judgment Prediction](https://blog.csdn.net/PolarisRisingWar/article/details/126472752)
+
+**2019年**
+1. (EMNLP) [Charge-Based Prison Term Prediction with Deep Gating Network](https://aclanthology.org/D19-1667/)
 
 **2017年**  
 1. (EMNLP) [Re7：读论文 FLA/MLAC/FactLaw Learning to Predict Charges for Criminal Cases with Legal Basis](https://blog.csdn.net/PolarisRisingWar/article/details/125957914)
