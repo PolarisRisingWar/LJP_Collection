@@ -1,5 +1,7 @@
 先立个flag放在这里。我现在项目不是垂直LJP方向了所以不再chase这个方向了……反正flag就放在这里了。
 
+不复现非顶会/顶刊且非经典的工作，但也列举在这里
+
 超过5M的文件都存储在了百度网盘上，以方便大陆用户下载：  
 链接：  
 提取码：
@@ -12,7 +14,8 @@
 简单介绍：
 |**数据集名称**|**国籍属性**|**下载和预处理策略**|**出处**|**任务形式**|
 |---|---|---|-----|---|
-|CAIL2018|中国大陆刑法|1. 原生数据格式<br>2. LADAN策略<br>3. CTM策略||输入事实描述文本，预测案件的罪名、刑期（分类任务或者ordinal分类任务）、适用法条|
+|CAIL2018|中国大陆刑法|1. 原生数据格式<br>2. LADAN策略<br>3. CTM策略|[CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction](https://arxiv.org/abs/1807.02478)|输入事实描述文本，预测案件的罪名、刑期（分类任务或者ordinal分类任务）、适用法条|
+|AIJudge|中国大陆|<https://www.datafountain.cn/competitions/277>|||
 |ILSI|印度（英文）||[Re6：读论文 LeSICiN: A Heterogeneous Graph-based Approach for Automatic Legal Statute Identification fro](https://blog.csdn.net/PolarisRisingWar/article/details/125192379)|根据事实描述文本和案件引用图，预测案件的适用法条|
 
 其他相关数据集介绍：  
@@ -26,6 +29,7 @@
 3. [ ] (IJCAI) [Re28：读论文 CECP Charge Prediction by Constitutive Elements Matching of Crimes](https://blog.csdn.net/PolarisRisingWar/article/details/126484229)
 4. [ ] (IPM) [Re36：读论文 CEEN Improving legal judgment prediction through reinforced criminal element extraction](https://blog.csdn.net/PolarisRisingWar/article/details/127557195)
 5. [ ] (COLING) [Re 39：读论文 CTM Augmenting Legal Judgment Prediction with Contrastive Case Relations](https://blog.csdn.net/PolarisRisingWar/article/details/127515132)
+6. (Artificial Intelligence and Law) [Re41：NumLJP Judicial knowledge‑enhanced magnitude‑aware reasoning for numerical legal judgment predi](https://link.springer.com/article/10.1007/s10506-022-09337-4)
 
 **2021年**  
 1. [ ] (ACL) [Re16：读论文 ILDC for CJPE: Indian Legal Documents Corpus for Court Judgment Prediction and Explanation](https://blog.csdn.net/PolarisRisingWar/article/details/126037188)
