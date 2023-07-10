@@ -31,19 +31,30 @@
 1. [ ] (ACL) [Re16：读论文 ILDC for CJPE: Indian Legal Documents Corpus for Court Judgment Prediction and Explanation](https://blog.csdn.net/PolarisRisingWar/article/details/126037188)
 2. [ ] (NAACL) [Re18：读论文 GCI Everything Has a Cause: Leveraging Causal Inference in Legal Text Analysis](https://blog.csdn.net/PolarisRisingWar/article/details/126038513)
 3. [ ] (SIGIR) [Re21：读论文 MSJudge Legal Judgment Prediction with Multi-Stage Case Representation Learning in the Real](https://blog.csdn.net/PolarisRisingWar/article/details/126054985)
-4. [ ] (SIGIR) [Re38：读论文 NeurJudge: A Circumstance-aware Neural Framework for Legal Judgment Prediction](https://blog.csdn.net/PolarisRisingWar/article/details/128243315)
+4. [x] (SIGIR) [Re38：读论文 NeurJudge: A Circumstance-aware Neural Framework for Legal Judgment Prediction](https://blog.csdn.net/PolarisRisingWar/article/details/128243315)
+[NeurJudge在基于LADAN策略预处理的CAIL2018数据集上实现LJP任务](models/NeurJudge/CAIL2018_LADAN)
 
 
 **2020年**  
-1. [ ] (ACL) [Re27：读论文 LADAN Distinguish Confusing Law Articles for Legal Judgment Prediction](https://blog.csdn.net/PolarisRisingWar/article/details/126472752)
+1. [x] (ACL) [Re27：读论文 LADAN Distinguish Confusing Law Articles for Legal Judgment Prediction](https://blog.csdn.net/PolarisRisingWar/article/details/126472752)
+[LADAN在基于LADAN策略预处理的CAIL2018数据集上实现LJP任务](models/LADAN/CAIL2018_LADAN)
 
 **2019年**
 1. [ ] (EMNLP) [Charge-Based Prison Term Prediction with Deep Gating Network](https://aclanthology.org/D19-1667/)
+2. [ ] (IJCAI) [Legal Judgment Prediction via Multi-Perspective Bi-Feedback Network](https://arxiv.org/abs/1905.03969)
+
+**2018年**
+1. [ ] (EMNLP) [Legal Judgment Prediction via Topological Learning](https://aclanthology.org/D18-1390/)
 
 **2017年**  
 1. [ ] (EMNLP) [Re7：读论文 FLA/MLAC/FactLaw Learning to Predict Charges for Criminal Cases with Legal Basis](https://blog.csdn.net/PolarisRisingWar/article/details/125957914)
 
 # 通用文本分类
+1. [x] Bi-GRU
+[Bi-GRU在基于LADAN策略预处理的CAIL2018数据集上实现文本分类模型](models/BiGRU/CAIL2018_LADAN)
+2. [x] SVM
+[SVM在基于LADAN策略预处理的CAIL2018数据集上实现文本分类模型](models/BiGRU/CAIL2018_LADAN)
+
 **2018年**
 1. [x] (NAACL) [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/)
-[BERT在基于LADAN策略预处理的CAIL2018数据集上的实现](models/BERT/CAIL2018_LADAN)
+[BERT在基于LADAN策略预处理的CAIL2018数据集上实现文本分类模型](models/BERT/CAIL2018_LADAN)
