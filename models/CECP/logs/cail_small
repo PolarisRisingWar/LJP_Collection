@@ -1,0 +1,3 @@
+Wed Feb 15 08:10:24 2023
+Val: step=25409, epoch=4, loss=0.4632, acc=0.8744, f1=0.8391, precision=0.8488, recall=0.8448, use_time=12.62min
+Test: step=25409, epoch=4, loss=0.5704, acc=0.8534, f1=0.8290, precision=0.8361, recall=0.8334, use_time=24.52min
