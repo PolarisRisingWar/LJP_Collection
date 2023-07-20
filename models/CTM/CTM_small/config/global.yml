@@ -1,0 +1,5 @@
+path:
+  tables: tables/
+  bashes: cluster_bash/
+  figs: figs/
+  analysis: analysis/

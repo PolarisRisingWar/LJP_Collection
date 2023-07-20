@@ -1,0 +1,3 @@
+hyperparameter:
+  CTM:
+    lstm_size: 128

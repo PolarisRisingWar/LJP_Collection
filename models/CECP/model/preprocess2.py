@@ -1,3 +1,4 @@
+#预处理代码
 #这个是负责弄elements文件的
 
 import thulac

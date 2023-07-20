@@ -1,0 +1,2 @@
+,number,value,datetime_start,datetime_complete,duration,params_lstm_size,system_attrs_grid_id,system_attrs_search_space,state
+0,0,97.32805199057923,2023-02-06 17:24:28.048511,2023-02-10 02:15:33.288954,3 days 08:51:05.240443,64,0,"OrderedDict([('lstm_size', [64])])",COMPLETE
