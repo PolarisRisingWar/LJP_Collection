@@ -14,9 +14,9 @@
 简单介绍：
 |**数据集名称**|**国籍属性**|**下载和预处理策略**|**出处**|**任务形式**|
 |---|---|---|-----|---|
-|CAIL2018|中国大陆刑法|1. 原生数据格式<br>2. LADAN策略<br>3. CTM策略|[CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction](https://arxiv.org/abs/1807.02478)|输入事实描述文本，预测案件的罪名、刑期（分类任务或者ordinal分类任务）、适用法条|
+|CAIL2018|中国大陆刑法|1. 原生数据格式<br>2. LADAN策略<br>3. CTM策略|(2018) [CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction](https://arxiv.org/abs/1807.02478)|输入事实描述文本，预测案件的罪名、刑期（分类任务或者ordinal分类任务）、适用法条|
 |AIJudge|中国大陆|<https://www.datafountain.cn/competitions/277>|||
-|ILSI|印度（英文）||[Re6：读论文 LeSICiN: A Heterogeneous Graph-based Approach for Automatic Legal Statute Identification fro](https://blog.csdn.net/PolarisRisingWar/article/details/125192379)|根据事实描述文本和案件引用图，预测案件的适用法条|
+|ILSI|印度（英文）||(2022 AAAI) [Re6：读论文 LeSICiN: A Heterogeneous Graph-based Approach for Automatic Legal Statute Identification fro](https://blog.csdn.net/PolarisRisingWar/article/details/125192379)|根据事实描述文本和案件引用图，预测案件的适用法条|
 
 其他相关数据集介绍：  
 [LegalAI公开数据集的整理、总结及介绍（持续更新ing…）](https://blog.csdn.net/PolarisRisingWar/article/details/126058246)
@@ -24,16 +24,16 @@
 # LJP工作
 **2023年**  
 1. [ ] (ICAIL) [Legal Syllogism Prompting: Teaching Large Language Models for Legal Judgment Prediction](https://arxiv.org/abs/2307.08321)
-2. (Information Processing & Management) [LA-MGFM: A legal judgment prediction method via sememe-enhanced graph neural networks and multi-graph fusion mechanism](https://www.sciencedirect.com/science/article/pii/S0306457323001929)：构建语义图并融合
+2. (IPM) [LA-MGFM: A legal judgment prediction method via sememe-enhanced graph neural networks and multi-graph fusion mechanism](https://www.sciencedirect.com/science/article/pii/S0306457323001929)：构建语义图并融合
 
 **2022年**  
 1. [ ] (AAAI) [Re6：读论文 LeSICiN: A Heterogeneous Graph-based Approach for Automatic Legal Statute Identification fro](https://blog.csdn.net/PolarisRisingWar/article/details/125192379)  
 2. [ ] (AAAI) [Re14：读论文 ILLSI Interpretable Low-Resource Legal Decision Making](https://blog.csdn.net/PolarisRisingWar/article/details/126033696)
 2. [ ] (ACL) [Re11：读论文 EPM Legal Judgment Prediction via Event Extraction with Constraints](https://blog.csdn.net/PolarisRisingWar/article/details/126029464)
-3. [x] (IJCAI) [Re28：读论文 CECP Charge Prediction by Constitutive Elements Matching of Crimes](https://blog.csdn.net/PolarisRisingWar/article/details/126484229)
+3. [x] (IJCAI) [Re28：读论文 CECP Charge Prediction by Constitutive Elements Matching of Crimes](https://blog.csdn.net/PolarisRisingWar/article/details/126484229)  
 [代码：基于LADAN策略预处理的CAIL2018数据集上](models/CECP)
 4. [ ] (IPM) [Re36：读论文 CEEN Improving legal judgment prediction through reinforced criminal element extraction](https://blog.csdn.net/PolarisRisingWar/article/details/127557195)
-5. [x] (COLING) [Re 39：读论文 CTM Augmenting Legal Judgment Prediction with Contrastive Case Relations](https://blog.csdn.net/PolarisRisingWar/article/details/127515132)
+5. [x] (COLING) [Re 39：读论文 CTM Augmenting Legal Judgment Prediction with Contrastive Case Relations](https://blog.csdn.net/PolarisRisingWar/article/details/127515132)  
 [代码：基于LADAN策略预处理的CAIL2018数据集上](models/CTM)
 6. (Artificial Intelligence and Law) [Re41：NumLJP Judicial knowledge‑enhanced magnitude‑aware reasoning for numerical legal judgment predi](https://link.springer.com/article/10.1007/s10506-022-09337-4)
 
