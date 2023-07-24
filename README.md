@@ -24,6 +24,8 @@
 # LJP工作
 **2023年**  
 1. [ ] (ICAIL) [Legal Syllogism Prompting: Teaching Large Language Models for Legal Judgment Prediction](https://arxiv.org/abs/2307.08321)
+2. [ ] (SIGIR) [ML-LJP: Multi-Law Aware Legal Judgment Prediction](https://dl.acm.org/doi/10.1145/3539618.3591731)：一个是将LJP任务扩展到多标签场景下（multi-law），一个是用GAT学习法律条文之间的相互作用以预测刑期，一个是对数字进行表征
+3. [ ] (TOIS) [Contrastive Learning for Legal Judgment Prediction](https://dl.acm.org/doi/abs/10.1145/3580489)：“相似”样本是（1）法律的同一章节中的各种法律条文 （2）同一法律条文或相关法律条文的类似指控，即具有相同文章/指控标签的案件
 2. (IPM) [LA-MGFM: A legal judgment prediction method via sememe-enhanced graph neural networks and multi-graph fusion mechanism](https://www.sciencedirect.com/science/article/pii/S0306457323001929)：构建语义图并融合
 
 **2022年**  
