@@ -27,6 +27,7 @@
 2. [ ] (SIGIR) [ML-LJP: Multi-Law Aware Legal Judgment Prediction](https://dl.acm.org/doi/10.1145/3539618.3591731)：一个是将LJP任务扩展到多标签场景下（multi-law），一个是用GAT学习法律条文之间的相互作用以预测刑期，一个是对数字进行表征
 3. [ ] (TOIS) [Contrastive Learning for Legal Judgment Prediction](https://dl.acm.org/doi/abs/10.1145/3580489)：“相似”样本是（1）法律的同一章节中的各种法律条文 （2）同一法律条文或相关法律条文的类似指控，即具有相同文章/指控标签的案件
 2. (IPM) [LA-MGFM: A legal judgment prediction method via sememe-enhanced graph neural networks and multi-graph fusion mechanism](https://www.sciencedirect.com/science/article/pii/S0306457323001929)：构建语义图并融合
+5. (Journal of King Saud University - Computer and Information Sciences) [TaSbeeb: A judicial decision support system based on deep learning framework](https://www.sciencedirect.com/science/article/pii/S1319157823002495)：沙特法院，所以这篇是伊斯兰教律法体系，特点是需要检索《古兰经》和圣训的经文。作者还在论文里吐槽阿拉伯文的数据集太少了，什么时候像CAIL一样搞个比赛就好了
 
 **2022年**  
 1. [ ] (AAAI) [Re6：读论文 LeSICiN: A Heterogeneous Graph-based Approach for Automatic Legal Statute Identification fro](https://blog.csdn.net/PolarisRisingWar/article/details/125192379)  
