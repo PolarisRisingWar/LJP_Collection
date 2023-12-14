@@ -1,36 +1,56 @@
-不复现非顶会/顶刊且非经典的工作，但也列举在这里
+本项目专注于复现CAIL2018数据集上的LJP工作。  
+我专门写了篇综述，等写完了我挂到ArXiv上。  
+项目代码的逻辑顺序是：数据集的不同预处理方法→不同的解决方案
 
-超过5M的文件都存储在了百度网盘上，以方便大陆用户下载：  
-链接：  
-提取码：
+超过5M的文件都存储在了百度网盘上，以方便大陆用户下载
 
 * [1. 数据](#数据)
 * [2. LJP工作](#LJP工作)
 * [3. 通用文本分类](#通用文本分类)
 
-# 数据
-简单介绍：
-|**数据集名称**|**国籍属性**|**下载和预处理策略**|**出处**|**任务形式**|
-|---|---|---|-----|---|
-|CAIL2018|中国大陆刑法|1. 原生数据格式<br>2. LADAN策略<br>3. CTM策略|(2018) [CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction](https://arxiv.org/abs/1807.02478)|输入事实描述文本，预测案件的罪名、刑期（分类任务或者ordinal分类任务）、适用法条|
-|AIJudge|中国大陆|<https://www.datafountain.cn/competitions/277>|||
-|ILSI|印度（英文）||(2022 AAAI) [Re6：读论文 LeSICiN: A Heterogeneous Graph-based Approach for Automatic Legal Statute Identification fro](https://blog.csdn.net/PolarisRisingWar/article/details/125192379)|根据事实描述文本和案件引用图，预测案件的适用法条|
+# 数据预处理
+CAIL2018数据集，原始数据来自裁判文书网，经处理后输入是事实描述文本，输出是案件的罪名、刑期、适用法条和罚金。  
+中国大陆刑事一审案件，分成big和small两个子数据集。  
 
-其他相关数据集介绍：  
-[LegalAI公开数据集的整理、总结及介绍（持续更新ing…）](https://blog.csdn.net/PolarisRisingWar/article/details/126058246)
+数据集处理策略：
+## 原生数据格式
+下载地址：<https://cail.oss-cn-qingdao.aliyuncs.com/CAIL2018_ALL_DATA.zip>
 
-TODO：
-- [ ] 数据预处理方案和中间数据
+以事实文本作为输入，以分类任务的范式，预测罪名（accusation）、法条（law）、刑期（imprisonment，单位为月，如被判为无期徒刑则是-1、死刑是-2
 
+训练集是first_stage/train.json，测试集是 first_stage/test.json + restData/rest_data.json（文中说，这个配置是删除多被告情况，仅保留单一被告的案例；删除了出现频数低于30的罪名和法条；删除了不与特定罪名相关的102个法条（没看懂这句话是啥意思））
+
+具体的待补
+## LADAN格式
+small数据集：
+链接：https://pan.baidu.com/s/1AVayyvozUR4ImIumn52Ydg 
+提取码：lkro 
+
+big数据集：
+链接：https://pan.baidu.com/s/1EY-NowCigua0XQ5pwqenow 
+提取码：mkos 
+
+具体的创建过程我没记录，总之是跟LADAN官方代码和统计信息是一样的，大概来说应该是看LADAN的GitHub项目得到的。
+
+|**Dataset**|**small**|**big**|
+|--|--|--|
+|train cases|101,619|1,587,979|
+|valid cases|13,768|-|
+|test cases|26,749|185,120|
+|articles|103|118|
+|charges|119|130|
+|term of penalty|11|11|
+## CTM格式
+待补
 # LJP工作
-论文前面打钩的就是已经复现了（代码也放上来了），放了个空选择框的就是准备复现。没有选择框的就是我不准备复现了。
+论文前面的单选框表示是否完成并上传复现代码。代码具体复现了多少看models文件夹里面
 
 **2023年**  
 1. [ ] (ICAIL) [Legal Syllogism Prompting: Teaching Large Language Models for Legal Judgment Prediction](https://arxiv.org/abs/2307.08321)：法律三段论提示工程
 2. [ ] (SIGIR) [ML-LJP: Multi-Law Aware Legal Judgment Prediction](https://dl.acm.org/doi/10.1145/3539618.3591731)：一个是将LJP任务扩展到多标签场景下（multi-law），一个是用GAT学习法律条文之间的相互作用以预测刑期，一个是对数字进行表征
 3. [ ] (TOIS) [Contrastive Learning for Legal Judgment Prediction](https://dl.acm.org/doi/abs/10.1145/3580489)：“相似”样本是（1）法律的同一章节中的各种法律条文 （2）同一法律条文或相关法律条文的类似指控，即具有相同文章/指控标签的案件
-2. (IPM) [LA-MGFM: A legal judgment prediction method via sememe-enhanced graph neural networks and multi-graph fusion mechanism](https://www.sciencedirect.com/science/article/pii/S0306457323001929)：构建语义图并融合
-5. (Journal of King Saud University - Computer and Information Sciences) [TaSbeeb: A judicial decision support system based on deep learning framework](https://www.sciencedirect.com/science/article/pii/S1319157823002495)：沙特法院，所以这篇是伊斯兰教律法体系，特点是需要检索《古兰经》和圣训的经文。作者还在论文里吐槽阿拉伯文的数据集太少了，什么时候像CAIL一样搞个比赛就好了
+2. [ ] (IPM) [LA-MGFM: A legal judgment prediction method via sememe-enhanced graph neural networks and multi-graph fusion mechanism](https://www.sciencedirect.com/science/article/pii/S0306457323001929)：构建语义图并融合
+5. [ ] (Journal of King Saud University - Computer and Information Sciences) [TaSbeeb: A judicial decision support system based on deep learning framework](https://www.sciencedirect.com/science/article/pii/S1319157823002495)：沙特法院，所以这篇是伊斯兰教律法体系，特点是需要检索《古兰经》和圣训的经文。作者还在论文里吐槽阿拉伯文的数据集太少了，什么时候像CAIL一样搞个比赛就好了
 
 **2022年**  
 1. [ ] (AAAI) [Re6：读论文 LeSICiN: A Heterogeneous Graph-based Approach for Automatic Legal Statute Identification fro](https://blog.csdn.net/PolarisRisingWar/article/details/125192379)  
@@ -41,7 +61,7 @@ TODO：
 4. [ ] (IPM) [Re36：读论文 CEEN Improving legal judgment prediction through reinforced criminal element extraction](https://blog.csdn.net/PolarisRisingWar/article/details/127557195)
 5. [x] (COLING) [Re 39：读论文 CTM Augmenting Legal Judgment Prediction with Contrastive Case Relations](https://blog.csdn.net/PolarisRisingWar/article/details/127515132)  
 [代码：基于LADAN策略预处理的CAIL2018数据集上](models/CTM)
-6. (Artificial Intelligence and Law) [Re41：NumLJP Judicial knowledge‑enhanced magnitude‑aware reasoning for numerical legal judgment predi](https://link.springer.com/article/10.1007/s10506-022-09337-4)
+6. [ ] (Artificial Intelligence and Law) [Re41：NumLJP Judicial knowledge‑enhanced magnitude‑aware reasoning for numerical legal judgment predi](https://link.springer.com/article/10.1007/s10506-022-09337-4)
 
 **2021年**  
 1. [ ] (ACL) [Re16：读论文 ILDC for CJPE: Indian Legal Documents Corpus for Court Judgment Prediction and Explanation](https://blog.csdn.net/PolarisRisingWar/article/details/126037188)
@@ -58,7 +78,7 @@ TODO：
 **2019年**
 1. [ ] (EMNLP) [Charge-Based Prison Term Prediction with Deep Gating Network](https://aclanthology.org/D19-1667/)
 2. [ ] (IJCAI) [Legal Judgment Prediction via Multi-Perspective Bi-Feedback Network](https://arxiv.org/abs/1905.03969)
-3. (Law in Context) [A Brief History of the Changing Roles of Case Prediction in AI and Law](https://journals.latrobe.edu.au/index.php/law-in-context/article/view/88)：主要是美国那边LJP工作的综述
+3. [ ] (Law in Context) [A Brief History of the Changing Roles of Case Prediction in AI and Law](https://journals.latrobe.edu.au/index.php/law-in-context/article/view/88)：主要是美国那边LJP工作的综述
 
 **2018年**
 1. [ ] (EMNLP) [Legal Judgment Prediction via Topological Learning](https://aclanthology.org/D18-1390/)
@@ -75,3 +95,7 @@ TODO：
 **2018年**
 1. [x] (NAACL) [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/)  
 [代码：在基于LADAN策略预处理的CAIL2018数据集上](models/BERT/CAIL2018_LADAN)
+# 结果展示
+原始格式数据集
+
+LADAN格式数据集
