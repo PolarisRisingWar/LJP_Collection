@@ -8,7 +8,7 @@
 * [2. LJP工作](#LJP工作)
 * [3. 通用文本分类](#通用文本分类)
 
-# 数据预处理
+# 数据
 CAIL2018数据集，原始数据来自裁判文书网，经处理后输入是事实描述文本，输出是案件的罪名、刑期、适用法条和罚金。  
 中国大陆刑事一审案件，分成big和small两个子数据集。  
 
@@ -22,12 +22,12 @@ CAIL2018数据集，原始数据来自裁判文书网，经处理后输入是事
 
 具体的待补
 ## LADAN格式
-small数据集：
-链接：https://pan.baidu.com/s/1AVayyvozUR4ImIumn52Ydg 
-提取码：lkro 
+small数据集：  
+链接：https://pan.baidu.com/s/1kLueQRCFYYnYCOK9DE8o9Q  
+提取码：n51y
 
-big数据集：
-链接：https://pan.baidu.com/s/1EY-NowCigua0XQ5pwqenow 
+big数据集：  
+链接：https://pan.baidu.com/s/1EY-NowCigua0XQ5pwqenow  
 提取码：mkos 
 
 具体的创建过程我没记录，总之是跟LADAN官方代码和统计信息是一样的，大概来说应该是看LADAN的GitHub项目得到的。
