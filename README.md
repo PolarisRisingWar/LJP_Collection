@@ -2,7 +2,7 @@
 我专门写了篇综述，等写完了我挂到ArXiv上。  
 项目代码的逻辑顺序是：数据集的不同预处理方法→不同的解决方案
 
-超过5M的文件都存储在了百度网盘上，以方便大陆用户下载
+超过5M的文件都存储在了百度网盘上，以方便大陆用户下载。
 
 * [1. 数据](#数据)
 * [2. LJP工作](#LJP工作)
@@ -23,11 +23,11 @@ CAIL2018数据集，原始数据来自裁判文书网，经处理后输入是事
 具体的待补
 ## LADAN格式
 small数据集：  
-链接：https://pan.baidu.com/s/1kLueQRCFYYnYCOK9DE8o9Q  
+链接：<https://pan.baidu.com/s/1kLueQRCFYYnYCOK9DE8o9Q>  
 提取码：n51y
 
 big数据集：  
-链接：https://pan.baidu.com/s/1EY-NowCigua0XQ5pwqenow  
+链接：<https://pan.baidu.com/s/1EY-NowCigua0XQ5pwqenow>  
 提取码：mkos 
 
 具体的创建过程我没记录，总之是跟LADAN官方代码和统计信息是一样的，大概来说应该是看LADAN的GitHub项目得到的。
@@ -43,7 +43,8 @@ big数据集：
 ## CTM格式
 待补
 # LJP工作
-论文前面的单选框表示是否完成并上传复现代码。代码具体复现了多少看models文件夹里面
+论文前面的单选框表示是否完成并上传复现代码。代码具体复现了多少看models文件夹里面。  
+因为我感觉不同数据集之间的转换不难，所以我就只复现一种数据集格式了（一般用的是LADAN格式）
 
 **2023年**  
 1. [ ] (ICAIL) [Legal Syllogism Prompting: Teaching Large Language Models for Legal Judgment Prediction](https://arxiv.org/abs/2307.08321)：法律三段论提示工程
@@ -56,24 +57,20 @@ big数据集：
 1. [ ] (AAAI) [Re6：读论文 LeSICiN: A Heterogeneous Graph-based Approach for Automatic Legal Statute Identification fro](https://blog.csdn.net/PolarisRisingWar/article/details/125192379)  
 2. [ ] (AAAI) [Re14：读论文 ILLSI Interpretable Low-Resource Legal Decision Making](https://blog.csdn.net/PolarisRisingWar/article/details/126033696)
 2. [ ] (ACL) [Re11：读论文 EPM Legal Judgment Prediction via Event Extraction with Constraints](https://blog.csdn.net/PolarisRisingWar/article/details/126029464)
-3. [x] (IJCAI) [Re28：读论文 CECP Charge Prediction by Constitutive Elements Matching of Crimes](https://blog.csdn.net/PolarisRisingWar/article/details/126484229)  
-[代码：基于LADAN策略预处理的CAIL2018数据集上](models/CECP)
+3. [x] (IJCAI) [Re28：读论文 CECP Charge Prediction by Constitutive Elements Matching of Crimes](https://blog.csdn.net/PolarisRisingWar/article/details/126484229)
 4. [ ] (IPM) [Re36：读论文 CEEN Improving legal judgment prediction through reinforced criminal element extraction](https://blog.csdn.net/PolarisRisingWar/article/details/127557195)
-5. [x] (COLING) [Re 39：读论文 CTM Augmenting Legal Judgment Prediction with Contrastive Case Relations](https://blog.csdn.net/PolarisRisingWar/article/details/127515132)  
-[代码：基于LADAN策略预处理的CAIL2018数据集上](models/CTM)
+5. [x] (COLING) [Re 39：读论文 CTM Augmenting Legal Judgment Prediction with Contrastive Case Relations](https://blog.csdn.net/PolarisRisingWar/article/details/127515132)
 6. [ ] (Artificial Intelligence and Law) [Re41：NumLJP Judicial knowledge‑enhanced magnitude‑aware reasoning for numerical legal judgment predi](https://link.springer.com/article/10.1007/s10506-022-09337-4)
 
 **2021年**  
 1. [ ] (ACL) [Re16：读论文 ILDC for CJPE: Indian Legal Documents Corpus for Court Judgment Prediction and Explanation](https://blog.csdn.net/PolarisRisingWar/article/details/126037188)
 2. [ ] (NAACL) [Re18：读论文 GCI Everything Has a Cause: Leveraging Causal Inference in Legal Text Analysis](https://blog.csdn.net/PolarisRisingWar/article/details/126038513)
 3. [ ] (SIGIR) [Re21：读论文 MSJudge Legal Judgment Prediction with Multi-Stage Case Representation Learning in the Real](https://blog.csdn.net/PolarisRisingWar/article/details/126054985)
-4. [x] (SIGIR) [Re38：读论文 NeurJudge: A Circumstance-aware Neural Framework for Legal Judgment Prediction](https://blog.csdn.net/PolarisRisingWar/article/details/128243315)  
-[代码：基于LADAN策略预处理的CAIL2018数据集上](models/NeurJudge/CAIL2018_LADAN)
+4. [x] (SIGIR) [Re38：读论文 NeurJudge: A Circumstance-aware Neural Framework for Legal Judgment Prediction](https://blog.csdn.net/PolarisRisingWar/article/details/128243315)
 
 
 **2020年**  
-1. [x] (ACL) [Re27：读论文 LADAN Distinguish Confusing Law Articles for Legal Judgment Prediction](https://blog.csdn.net/PolarisRisingWar/article/details/126472752)  
-[代码：在基于LADAN策略预处理的CAIL2018数据集上](models/LADAN/CAIL2018_LADAN)
+1. [x] (ACL) [Re27：读论文 LADAN Distinguish Confusing Law Articles for Legal Judgment Prediction](https://blog.csdn.net/PolarisRisingWar/article/details/126472752)
 
 **2019年**
 1. [ ] (EMNLP) [Charge-Based Prison Term Prediction with Deep Gating Network](https://aclanthology.org/D19-1667/)
@@ -87,15 +84,13 @@ big数据集：
 1. [ ] (EMNLP) [Re7：读论文 FLA/MLAC/FactLaw Learning to Predict Charges for Criminal Cases with Legal Basis](https://blog.csdn.net/PolarisRisingWar/article/details/125957914)
 
 # 通用文本分类
-1. [x] Bi-GRU  
-[代码：在基于LADAN策略预处理的CAIL2018数据集上](models/BiGRU/CAIL2018_LADAN)
-2. [x] SVM  
-[代码：在基于LADAN策略预处理的CAIL2018数据集上](models/BiGRU/CAIL2018_LADAN)
+1. [x] Bi-GRU
+2. [x] SVM
 
 **2018年**
-1. [x] (NAACL) [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/)  
-[代码：在基于LADAN策略预处理的CAIL2018数据集上](models/BERT/CAIL2018_LADAN)
+1. [x] (NAACL) [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/)
 # 结果展示
-原始格式数据集
+待补
+## 原始格式数据集
 
-LADAN格式数据集
+## LADAN格式数据集
