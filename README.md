@@ -107,7 +107,7 @@ Dependency Learning for Legal Judgment Prediction with a Unified Text-to-Text Tr
 3. [ ] (Law in Context) [A Brief History of the Changing Roles of Case Prediction in AI and Law](https://journals.latrobe.edu.au/index.php/law-in-context/article/view/88)：主要是美国那边LJP工作的综述
 
 **2018年**
-1. [ ] (EMNLP) [Legal Judgment Prediction via Topological Learning](https://aclanthology.org/D18-1390/)
+1. [x] (EMNLP) TOPJUDGE [Legal Judgment Prediction via Topological Learning](https://aclanthology.org/D18-1390/)
 
 **2017年**  
 1. [ ] (EMNLP) [Re7：读论文 FLA/MLAC/FactLaw Learning to Predict Charges for Criminal Cases with Legal Basis](https://blog.csdn.net/PolarisRisingWar/article/details/125957914)
