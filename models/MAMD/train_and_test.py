@@ -1,4 +1,4 @@
-import json,wandb
+import wandb
 import pickle as pk
 from tqdm import tqdm
 

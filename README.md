@@ -109,9 +109,18 @@ A Relation Learning Hierarchical Framework for Multi-label Charge Prediction
 Legal Judgment Prediction with Label Dependencies
 
 **2019年**
-1. [ ] (EMNLP) [Charge-Based Prison Term Prediction with Deep Gating Network](https://aclanthology.org/D19-1667/)
-2. [x] (IJCAI) MPBFN [Legal Judgment Prediction via Multi-Perspective Bi-Feedback Network](https://arxiv.org/abs/1905.03969)
+1. [x] (IJCAI) MPBFN [Legal Judgment Prediction via Multi-Perspective Bi-Feedback Network](https://arxiv.org/abs/1905.03969)
 3. [x] (ChineseCSCW) MAMD [Charge Prediction for Multi-defendant Cases with Multi-scale Attention](https://link.springer.com/chapter/10.1007/978-981-15-1377-0_59)
+
+Hierarchical Matching Network for Crime Classification
+A Recurrent Attention Network for Judgment Prediction
+Learning to Predict Charges for Judgment with Legal Graph
+Legal Cause Prediction with Inner Descriptions and Outer Hierarchies
+Charge Prediction with Legal Attention
+Automatic Legal Judgment Prediction via Large Amounts of Criminal Cases
+融入罪名关键词的法律判决预测多任务学习模型Multi-task learning model for legal judgment predictions with charge keywords
+MANN: A Multichannel Attentive Neural Network for Legal Judgment Prediction
+基于胶囊网络的法律罪名预测方法研究
 
 **2018年**
 1. [x] (EMNLP) TOPJUDGE [Legal Judgment Prediction via Topological Learning](https://aclanthology.org/D18-1390/)
