@@ -101,10 +101,17 @@ Dependency Learning for Legal Judgment Prediction with a Unified Text-to-Text Tr
 **2020年**  
 1. [x] (ACL) [Re27：读论文 LADAN Distinguish Confusing Law Articles for Legal Judgment Prediction](https://blog.csdn.net/PolarisRisingWar/article/details/126472752)
 
+Iteratively Questioning and Answering for Interpretable Legal Judgment Prediction  
+An Element-aware Multi-representation Model for Law Article Prediction  
+Multi-task Legal Judgement Prediction Combining a Subtask of the Seriousness of Charges  
+The Sentencing-Element-Aware Model for Explainable Term-of-Penalty Prediction  
+A Relation Learning Hierarchical Framework for Multi-label Charge Prediction  
+Legal Judgment Prediction with Label Dependencies
+
 **2019年**
 1. [ ] (EMNLP) [Charge-Based Prison Term Prediction with Deep Gating Network](https://aclanthology.org/D19-1667/)
 2. [x] (IJCAI) MPBFN [Legal Judgment Prediction via Multi-Perspective Bi-Feedback Network](https://arxiv.org/abs/1905.03969)
-3. [ ] (Law in Context) [A Brief History of the Changing Roles of Case Prediction in AI and Law](https://journals.latrobe.edu.au/index.php/law-in-context/article/view/88)：主要是美国那边LJP工作的综述
+3. [x] (ChineseCSCW) MAMD [Charge Prediction for Multi-defendant Cases with Multi-scale Attention](https://link.springer.com/chapter/10.1007/978-981-15-1377-0_59)
 
 **2018年**
 1. [x] (EMNLP) TOPJUDGE [Legal Judgment Prediction via Topological Learning](https://aclanthology.org/D18-1390/)
