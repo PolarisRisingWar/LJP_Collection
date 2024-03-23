@@ -4,9 +4,13 @@
 
 超过5M的文件都存储在了百度网盘上，以方便大陆用户下载。
 
-* [1. 数据](#数据)
-* [2. LJP工作](#LJP工作)
-* [3. 通用文本分类](#通用文本分类)
+目录：
+1. 数据
+2. LJP paper list
+3. 通用文本分类
+4. 结果展示
+5. 引用
+6. star history
 
 # 数据
 CAIL2018数据集，原始数据来自裁判文书网，经处理后输入是事实描述文本，输出是案件的罪名、刑期、适用法条和罚金。  
@@ -140,3 +144,17 @@ MANN: A Multichannel Attentive Neural Network for Legal Judgment Prediction
 ## 原始格式数据集
 
 ## LADAN格式数据集
+# 引用
+论文还在路上，现在如果大家想引用本GitHub项目可以参考如下格式：
+```
+@Misc{LJP_Collection,
+  title = {LJP_Collection},
+  author = {Huijuan Wang},
+  howpublished = {\url{https://github.com/PolarisRisingWar/LJP_Collection}},
+  year = {2023}
+}
+```
+文字版可参考：Huijuan Wang, LJP_Collection, (2023), GitHub repository, \url{https://github.com/PolarisRisingWar/LJP_Collection}
+# Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=PolarisRisingWar/LJP_Collection&type=Date)](https://star-history.com/#PolarisRisingWar/LJP_Collection&Date)
