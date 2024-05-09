@@ -58,7 +58,7 @@ LegalDuet: Learning Effective Representations for Legal Judgment Prediction thro
 Precedent-Enhanced Legal Judgment Prediction with LLM and Domain-Model Collaboration  
 A Comprehensive Evaluation of Large Language Models on Legal Judgment Prediction  
 Exploiting Contrastive Learning and Numerical Evidence for Confusing Legal Judgment Prediction  
-Contrastive Learning for Legal Judgment Prediction  
+CL4LJP Contrastive Learning for Legal Judgment Prediction  
 ML-LJP: Multi-Law Aware Legal Judgment Prediction  
 LA-MGFM: A legal judgment prediction method via sememe-enhanced graph neural networks and multi-graph fusion mechanism  
 How Legal Knowledge Graph Can Help Predict Charges for Legal Text  
