@@ -48,7 +48,7 @@ big数据集：
 待补
 # LJP paper list
 论文前面的单选框表示是否完成并上传复现代码。代码具体复现了多少看models文件夹里面。  
-因为我感觉不同数据集之间的转换不难，所以我就只复现一种数据集格式了（一般用的是LADAN格式）
+因为我感觉不同数据集之间的转换不难，所以我就只复现一种数据集格式了（一般用的是LADAN格式）**除了LADAN之外，我大多数代码直接使用了原文作为初始数据。fact_list是文本列表，每个元素是用空格隔开的分词后的原文**
 
 **2024年**
 Chinese legal judgment prediction via knowledgeable prompt learning  
