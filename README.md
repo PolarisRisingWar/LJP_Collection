@@ -103,7 +103,8 @@ Mulan: A Multiple Residual Article-Wise Attention Network for Legal Judgment Pre
 Dependency Learning for Legal Judgment Prediction with a Unified Text-to-Text Transformer
 
 **2020年**  
-1. [x] (ACL) [Re27：读论文 LADAN Distinguish Confusing Law Articles for Legal Judgment Prediction](https://blog.csdn.net/PolarisRisingWar/article/details/126472752)
+1. [x] (ACL) [Re27：读论文 LADAN Distinguish Confusing Law Articles for Legal Judgment Prediction](https://blog.csdn.net/PolarisRisingWar/article/details/126472752)  
+LADAN我当年复现的时候出过一点问题，见LADAN文件夹。LADAN官方回复说可以直接改用TF 2实现的D-LADAN（https://github.com/prometheusXN/D-LADAN ），这个我以后可能也会实现一下。
 
 Iteratively Questioning and Answering for Interpretable Legal Judgment Prediction  
 An Element-aware Multi-representation Model for Law Article Prediction  
