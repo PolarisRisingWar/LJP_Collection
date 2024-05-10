@@ -51,7 +51,7 @@ big数据集：
 因为我感觉不同数据集之间的转换不难，所以我就只复现一种数据集格式了（一般用的是LADAN格式）**除了LADAN之外，我大多数代码直接使用了原文作为初始数据。fact_list是文本列表，每个元素是用空格隔开的分词后的原文**
 
 **2024年**  
-(ESWA) KnowPrompt4LJP [Chinese legal judgment prediction via knowledgeable prompt learning](https://www.sciencedirect.com/science/article/abs/pii/S0957417423026799)  
+(ESWA) KnowPrompt4LJP [Chinese legal judgment prediction via knowledgeable prompt learning](https://www.sciencedirect.com/science/article/abs/pii/S0957417423026799) 我在另一个GitHub项目那边帮人下了这篇paper，有需自取：<https://github.com/PolarisRisingWar/pytorch_ljp/files/15269723/Chinese.legal.judgment.prediction.via.knowledgeable.prompt.learning.pdf>  
 LegalDuet: Learning Effective Representations for Legal Judgment Prediction through a Dual-View Legal Clue Reasoning
 
 **2023年**  
